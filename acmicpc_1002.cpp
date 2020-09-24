@@ -1,5 +1,7 @@
 #include<cstdio>
-
+// [터렛]
+// 두 원 사이의 접점의 개수를 구하면 된다
+// d1 < r1-r2, r1-r2 < d2 < r1+r2,  d3 = r1+r2,  r1+r2 < d4
 int main(){
     int n;
     int x1, y1, r1, x2, y2, r2;
